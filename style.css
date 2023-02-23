@@ -28,7 +28,6 @@ input , textarea , button{
     border-radius: 8px;
     margin: 5px;
 }
-
 button{
     background-color: black;
     color: white;
@@ -37,4 +36,33 @@ button{
 }
 button:hover{
     background-color: rgba(137, 43, 226, 0.863);
+}
+
+.task{
+    background-color: rgb(247,247,247);
+    font: 100 1.1rem sans-serif;
+    padding: 30px;
+    margin: 2vmax;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.938);
+}
+.task > div{
+    width: 100%;
+}
+.task span{
+    color: rgba(0, 0, 0, 0.568);
+}
+.deletebtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(15, 15, 15, 0.685);
+}
+.deletebtn:hover{
+    background-color: crimson;
 }
