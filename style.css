@@ -15,6 +15,9 @@ body{
     box-sizing: border-box;
 }
 
+h1{
+    font-family: sans-serif;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -26,7 +29,7 @@ input , textarea , button{
     outline: none;
     font: 100 1.1rem sans-serif;
     border-radius: 8px;
-    margin: 5px;
+    margin: 10px;
 }
 button{
     background-color: black;
