@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo List App</title>
-</head>
-<body>
-<div class="container">
-    
-</div>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input
+          type="text"
+          id="tittle"
+          placeholder="Enter task tittle"
+          required
+        />
+        <textarea
+          id="description"
+          placeholder="About Task Description"
+          required
+        ></textarea>
+
+        <button type="submit">ADD</button>
+
+      </form>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
