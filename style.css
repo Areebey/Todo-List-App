@@ -61,7 +61,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgba(15, 15, 15, 0.685);
+    background-color:rgba(248, 43, 84, 0.726);
 }
 .deletebtn:hover{
     background-color: crimson;
