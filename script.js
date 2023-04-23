@@ -2,7 +2,7 @@
 
 const tittle = document.getElementById("tittle");
 const description = document.getElementById("description");
-const form = document.querySelector("form");
+const form = document.querySelector(".form");
 const container = document.querySelector(".container"); 
 
 // array of object
